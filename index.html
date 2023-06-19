@@ -1,77 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ejercicios</title>
+  <title>Entrenamiento 2</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <style>
+    /* Styles for the main page */
     body {
       font-family: 'Arial', sans-serif;
+      background-color: #f1f2f6;
+      color: #333;
       margin: 0;
       padding: 20px;
-      background-color: #f1f1f1;
     }
 
     h1 {
       text-align: center;
-      color: #333;
+      color: #2f3542;
       padding: 20px;
       margin-bottom: 30px;
     }
 
-    .exercise {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      margin-bottom: 30px;
+    /* Styles for the paragraph and subtitle links */
+    .subtitle-section {
+      text-align: left;
+      margin-top: 40px;
     }
 
-    .exercise h2 {
-      font-size: 24px;
-      color: #333;
+    .subtitle-section p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle-section h2 {
+      font-size: 22px;
+      color: #2f3542;
       margin-top: 0;
       margin-bottom: 10px;
     }
 
-    .exercise video {
+    .subtitle-section a {
+      text-decoration: none;
+      color: #333;
       display: block;
-      max-width: 100%;
-      margin-top: 10px;
-      border-radius: 5px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+      transition: color 0.3s ease;
     }
 
-    @media (max-width: 768px) {
-      .exercise {
-        padding: 10px;
-      }
-
-      .exercise h2 {
-        font-size: 20px;
-      }
+    .subtitle-section a:hover {
+      color: #667eea;
     }
+
   </style>
 </head>
 <body>
-  <h1>Ejercicios</h1>
+  <h1>Entrenamiento 5 días</h1>
 
-  <div class="exercise animated fadeIn">
-    <h2>Press banco</h2>
-    <video src="bench_press_tiktok.mp4" controls></video>
+  <!-- Paragraph and subtitle links section -->
+  <div class="subtitle-section">
+    <p>Entrenamiento de 5 dias<br>
+      Se realiza la secuencia dia 1 a dia 5, y reinicia en dia 1<br>
+      Cardio no es obligatorio pero si recomendado, entre 5 y 25 minutos deberia ser suficiente<br>
+      2 días de descanso por semana, se puede elegir libremente<br>
+      Descanso entre series el necesario para completar la siguiente serie<br>
+      Lo mas importante es asegurarse de que cada serie y repeticion se realice con el maximo peso posible </p>
+    <h2><a href="dia_1.html">Dia 1</a></h2>
+    <h2><a href="dia_2.html">Dia 2</a></h2>
+    <h2><a href="dia_3.html">Dia 3</a></h2>
+    <h2><a href="dia_4.html">Dia 4</a></h2>
   </div>
-
-  <div class="exercise animated fadeIn">
-    <h2>Squat</h2>
-    <video src="squat_tiktok.mp4" controls></video>
-  </div>
-
-  <div class="exercise animated fadeIn">
-    <h2>Deadlift</h2>
-    <video src="deadlift_tiktok.mp4" controls></video>
-  </div>
-
-  <!-- Add more exercises as needed -->
 
 </body>
 </html>
